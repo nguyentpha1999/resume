@@ -264,7 +264,6 @@ body {
   grid-column: repeat(2, 1fr);
 }
 
-/*Media Querries*/
 @media screen and (max-width: 823px) {
   .right-title::after {
     width: 40%;

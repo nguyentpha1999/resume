@@ -11,9 +11,9 @@ body {
 }
 
 .main-content {
-  min-height: 90vh;
+  min-height: 100vh;
   width: 80%;
-  margin: 2rem auto;
+  margin: 4rem auto;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
 }
@@ -26,14 +26,14 @@ body {
 
 .right-section {
   grid-column: span 5;
-  height: 100%;
   background-color: rgb(159, 222, 220);
   height: 100%;
 }
 
 .left-content {
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
 }
+
 .profile {
   width: 100%;
 }
@@ -47,24 +47,25 @@ body {
   width: 100%;
   border-radius: 50%;
   border: 4px solid black;
-  height: 250px;
+  height: 230px;
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: yellowgreen;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 1.2rem 0;
+  padding: 1.5rem 0;
 }
 
 .career {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: rgb(146, 38, 171);
+  padding-bottom: 1.2rem 0;
 }
 
 .main-title {
@@ -94,13 +95,14 @@ body {
 
 .skills-section ul {
   padding-top: 2rem;
+  padding-right: 2rem;
 }
 
 .skills-section ul li {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  padding: 0.4rem 0;
+  padding: .4rem;
+  padding-left: 2rem;
 }
 
 .progress-bar {
@@ -146,8 +148,7 @@ body {
 .skill-title {
   text-transform: uppercase;
   color: rgb(206, 233, 235);
-  font-size: 1re77m;
-  padding-right: 1rem;
+  font-size: 1rem;
 }
 
 .sub-title {
@@ -169,7 +170,7 @@ body {
 }
 
 .references-section li i {
-  padding-right: 0.4rem;
+  padding-right: 0.5rem;
   font-size: 1.2rem;
   color: black;
 }

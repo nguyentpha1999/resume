@@ -67,14 +67,6 @@ body {
   color: rgb(146, 38, 171);
 }
 
-.main-title {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: black;
-  padding-top: 3rem;
-}
-
 .contact-info ul {
   padding: 2rem 0;
 }
@@ -120,27 +112,27 @@ body {
 }
 
 .html-progress {
-  width: 40%;
-}
-
-.css-progress {
-  width: 27%;
-}
-
-.js-progress {
   width: 20%;
 }
 
+.css-progress {
+  width: 10%;
+}
+
+.js-progress {
+  width: 2%;
+}
+
 .cplus-progress {
-  width: 35%;
+  width: 0%;
 }
 
 .sql-progress {
-  width: 47%;
+  width: 0%;
 }
 
 .python-progress {
-  width: 60%;
+  width: 0%;
 }
 
 .skill-title {
@@ -148,30 +140,6 @@ body {
   color: rgb(206, 233, 235);
   font-size: 1re77m;
   padding-right: 1rem;
-}
-
-.sub-title {
-  padding-top: 2rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  color: yellowgreen;
-  align-items: center;
-}
-
-.sub-para {
-  color: rgb(146, 38, 171);
-  padding: 0.4rem 0;
-}
-
-.references-section li {
-  color: black;
-  padding: 0.2rem 0;
-}
-
-.references-section li i {
-  padding-right: 0.4rem;
-  font-size: 1.2rem;
-  color: black;
 }
 
 .right-main-content {

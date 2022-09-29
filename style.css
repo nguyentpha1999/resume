@@ -67,6 +67,14 @@ body {
   color: rgb(146, 38, 171);
 }
 
+.main-title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  padding-top: 3rem;
+}
+
 .contact-info ul {
   padding: 2rem 0;
 }
